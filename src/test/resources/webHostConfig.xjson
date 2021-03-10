@@ -1,0 +1,17 @@
+/*   xjson - extended json 
+     comment are not allowed by jason
+     but we do preprocess it and remove comments 
+  */ 
+{ 
+  // $NAME use environment variable
+  // #NAME use encoded environment variable
+  // plain value (not recomended)
+  "host"     : "$FTP_HOST",
+  "user"     : "$FTP_USER",
+  "password" : "$FTP_PSWD",
+  
+  "source"  : "src/test/resources"      ,     // local path
+  "remote"  : "/httpdocs/oxmon.com/test",     // remote path
+  "ignore"  : [".gitignore", ".git/", "szb*"],// files not allowed to transfer
+  "timeout" : 12
+}

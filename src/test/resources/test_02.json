@@ -1,0 +1,7 @@
+{
+  "source"  : "src",
+  "remote"  : "/httpdocs/oxmon.com",
+  "ignore"  : [".gitignore", ".git/", "szb*"],
+  "timeout" : 12,
+  "esc\"char" : 10
+}
