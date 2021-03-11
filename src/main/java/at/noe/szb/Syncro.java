@@ -85,10 +85,12 @@ public class Syncro{
                 e.printStackTrace();
             }
         }
+
+        // transfer modified files to the remote host
+        
         
         // update properties
         whProperties.wrLastExecutionTime();
-        
     }
     public static void main( String[] args ){
         Syncro.doit(args);
